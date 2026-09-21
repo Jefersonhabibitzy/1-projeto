@@ -6,7 +6,7 @@ function fazerLogin() {
     const senhaCorreta = "1234";
 
     if (user === usuarioCorreto && pass === senhaCorreta) {
-        window.location.href = "https://images.unsplash.com/photo-1575936123452-b67c3203c357";
+        window.location.href = "papel-parede-windows.webp";
     } else {
         document.getElementById('erro').innerText = "Usuário ou senha incorretos!";
     }
